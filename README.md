@@ -33,7 +33,8 @@ func(2);
 ### React
 
 ```js
-import React, { Component, PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import chainedFunction from 'chained-function';
 
 class extends Component {
